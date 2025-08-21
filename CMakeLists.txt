@@ -34,7 +34,7 @@ src/main.cpp
 )
 
 add_executable(ParallelLauncher_tests
-src/tests/test_ThreadManager.cpp
+tests/test_ThreadManager.cpp
 )
 
 target_link_libraries(ParallelLauncher PRIVATE pthread spdlog::spdlog)
